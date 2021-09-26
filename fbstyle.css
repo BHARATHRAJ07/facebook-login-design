@@ -1,0 +1,84 @@
+body{
+    margin:0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+    align-items: left;
+    justify-content: left;
+    background:whitesmoke;
+    font-family: sans-serif;
+}
+.container{
+    text-align: left;
+}
+.title{
+    font-size: 30px;
+    font-family: sans-serif;
+    font-weight: bold;
+    color: rgb(43, 43, 238);
+    position: relative;
+    padding-top: 200px;
+    padding-left: 150px;
+}
+.quote{
+    font-size: 15px;
+    font-weight: bold;
+    font-family:sans-serif;
+    padding-left: 100px;
+    padding-top: px;
+    position: relative;
+}
+form{
+    width: 75%;
+    display:flex;
+    flex-direction: column;
+    position: relative;
+    left:50%;
+    transform: translate(100%,-65%);
+    border:hsla(0, 0%, 0%, 0.623);
+    border-style: solid;
+    border-radius: 10px;
+    padding: 20px;
+}
+form input{
+    margin-bottom: 10px;
+    border: 1px solid gainsboro;
+    border-radius:3px;
+    outline: none;
+    height:35px ;
+    margin-top:10px;
+    width:400px;
+}
+button.log{
+    position: relative;
+    border: blue;
+    border-style: solid;
+    border-radius: 2px;
+    background: blue;
+    color:#ffff;
+    margin-top: 10px;
+    width:200px;
+    padding-left: 50px;
+    margin-left:100px ;
+    padding-right: 50px;
+    cursor: pointer;
+}
+div.forget-id{
+position: relative;
+padding-left: 130px;
+padding-top: 20px;
+font-weight: bold;
+}
+div.new{
+    position: relative;
+    padding-left: 130px;
+    padding-top: 20px;
+}
+button.create{
+    background: rgb(3, 224, 51);
+    border-radius: 5px;
+    color:#ffff;
+    border-color:rgb(3, 224, 51);
+    outline: none;
+    cursor:pointer ;
+}
